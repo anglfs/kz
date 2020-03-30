@@ -1,0 +1,46 @@
+.rule.data-v-06e12bf4 {
+  min-height: 100vh;
+  background-color: #F3F4F5;
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+  box-sizing: border-box;
+}
+.rule .rItem.data-v-06e12bf4 {
+  margin-bottom: 30rpx;
+}
+.rule .rItem .ri1.data-v-06e12bf4 {
+  position: relative;
+}
+.rule .rItem .ri1 .ri1i.data-v-06e12bf4 {
+  width: 286rpx;
+  height: 60rpx;
+}
+.rule .rItem .ri1 .ri1t.data-v-06e12bf4 {
+  position: absolute;
+  left: 32rpx;
+  line-height: 60rpx;
+  top: 0;
+  color: #B0620C;
+  font-size: 32rpx;
+}
+.rule .rItem .ri2.data-v-06e12bf4 {
+  padding-left: 32rpx;
+  padding-right: 32rpx;
+  margin-top: 20rpx;
+  color: #606266;
+  font-size: 32rpx;
+  line-height: 45rpx;
+}
+.rule .rItem .ri2 .ri2b1.data-v-06e12bf4 {
+  margin-bottom: 10rpx;
+}
+.rule .rItem .ri2 .ri2b1 .rbtext.data-v-06e12bf4 {
+  color: #ED5D5D;
+}
+.rule .right.data-v-06e12bf4 {
+  padding-left: 32rpx;
+  margin-top: 10rpx;
+  color: #C0C4CC;
+  font-size: 22rpx;
+}
+

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "VIP领取权益",
+  "usingComponents": {
+    "simple-address": "/components/simple-address/simple-address"
+  }
+}

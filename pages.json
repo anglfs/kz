@@ -1,0 +1,119 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		}
+	    ,{
+            "path" : "pages/mine",
+            "style": {
+            	"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+            }
+        },
+		{
+			"path": "pages/detail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/promote",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/rules",
+			"style": {
+				"navigationBarTitleText": "活动规则"
+			}
+		},
+		{
+			"path": "pages/join",
+			"style": {
+				"navigationBarTitleText": "加入VIP推广大使"
+			}
+		},
+		{
+			"path": "pages/getVipGift",
+			"style": {
+				"navigationBarTitleText": "VIP领取权益"
+			}
+		},
+		{
+			"path": "pages/withdraw",
+			"style": {
+				"navigationBarTitleText": "收益提取"
+			}
+		},
+		{
+			"path": "pages/record",
+			"style": {
+				"navigationBarTitleText": "我的推广记录",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/orderList",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/reserve",
+			"style": {
+				"navigationBarTitleText": "填写预约信息"
+			}
+		},
+		{
+			"path": "pages/editaddr",
+			"style": {
+				"navigationBarTitleText": "修改订单"
+			}
+		},
+		{
+			"path": "pages/reserveok",
+			"style": {
+				"navigationBarTitleText": "预约提交成功"
+			}
+		},
+		{
+			"path": "pages/share",
+			"style": {
+				"navigationBarTitleText": "专属海报"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "小乐开心购",
+		"navigationBarBackgroundColor": "#4395c5",
+		"backgroundColor": "#F3F4F5"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#4395c5",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"fontSize":"12px",
+		"list": [{
+				"pagePath": "pages/index",
+				"iconPath": "static/img/home2.png",
+				"selectedIconPath": "static/img/home1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/mine",
+				"iconPath": "static/img/mine2.png",
+				"selectedIconPath": "static/img/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}

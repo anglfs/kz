@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index",
+    "pages/mine",
+    "pages/detail",
+    "pages/promote",
+    "pages/rules",
+    "pages/join",
+    "pages/getVipGift",
+    "pages/withdraw",
+    "pages/record",
+    "pages/orderList",
+    "pages/reserve",
+    "pages/editaddr",
+    "pages/reserveok",
+    "pages/share"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "小乐开心购",
+    "navigationBarBackgroundColor": "#4395c5",
+    "backgroundColor": "#F3F4F5"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#4395c5",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "fontSize": "12px",
+    "list": [
+      {
+        "pagePath": "pages/index",
+        "iconPath": "static/img/home2.png",
+        "selectedIconPath": "static/img/home1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/mine",
+        "iconPath": "static/img/mine2.png",
+        "selectedIconPath": "static/img/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap43.json"
+}
